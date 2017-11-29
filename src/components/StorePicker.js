@@ -8,12 +8,10 @@ class StorePicker extends React.Component {
       <div className='wrapper'>
         {/* jsx */}
         {/* hello */}
-        <form action='' class='store-selector' method='post'>
-          Hello X
+        <form action='' className='store-selector' method='post'>
           <p> ddd {test}</p>
-          <div>
-            <XavTest/> 
-          </div>
+          <input type='button' class='button' value='' name='' />
+          <XavTest/> 
         </form>
       </div>
       )
