@@ -2,16 +2,17 @@ import React from 'react';
 import XavTest from './XavTest';
 class StorePicker extends React.Component {
   render() {
-    let test = 5555;
+    let title = 'Please Enter A Store';
     //sdfsdff
     return (
       <div className='wrapper'>
+        <XavTest/> 
         {/* jsx */}
         {/* hello */}
-        <form action='' className='store-selector' method='post'>
-          <p> ddd {test}</p>
-          <input type='button' class='button' value='' name='' />
-          <XavTest/> 
+        <form className='store-selector'>
+          <h2>{title}</h2>
+          <input type='text' required placeholder='Store Name' />
+          <button type='submit'></button>
         </form>
       </div>
       )
