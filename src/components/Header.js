@@ -7,12 +7,17 @@ class Header extends React.Component {
     console.log(this);
     return (
       <header className='top'>
-        <h1>catch of the day</h1>
-        <h3 className='tagline'>{this.props.tagline}</h3>
+        <h1>
+          catch 
+          <span className='ofThe'>
+            <span className='of'>of</span>
+            <span className='the'>the</span>
+          </span> 
+          day</h1>
+        <h3 className='tagline'><span>{this.props.tagline}</span></h3>
       </header>
     );
   }
 }
 
-sfdsdff
 export default Header;
