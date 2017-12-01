@@ -1,9 +1,18 @@
 import React from 'react';
 class Header extends React.Component {
+  constructor(props) {
+    super(props);
+  }
   render() {
+    console.log(this);
     return (
-      <p>Header</p>
+      <header className='top'>
+        <h1>catch of the day</h1>
+        <h3 className='tagline'>{this.props.tagline}</h3>
+
+      </header>
     );
   }
 }
+
 export default Header;

@@ -7,7 +7,7 @@ class App extends React.Component {
   render() {
     return (
       <div className='catch-of-the-day'>
-        <Header />
+        <Header tagline='fresh seefood market' cool={true} age='5000'/>
         <Inventory />
         <Order />
       </div>
