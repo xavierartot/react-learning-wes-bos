@@ -17,10 +17,8 @@ class StorePicker extends React.Component {
     let storeInput = this.storeInput;
     console.log(storeInput.value);
     // second we're going to transition from / to /store/:storeId
-
     //this by itself is null, we have to bind explicitly this 
   }
-
   render() {
     let title = 'Please Enter A Store';
 

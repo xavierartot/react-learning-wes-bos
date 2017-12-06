@@ -1,6 +1,7 @@
 export function formatPrice(cents) {
   return `$${(cents / 100).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
 }
+
 export function rando(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
@@ -19,3 +20,5 @@ export function getFunName() {
 
   return `${rando(adjectives)}-${rando(adjectives)}-${rando(nouns)}`;
 }
+
+//sssss
