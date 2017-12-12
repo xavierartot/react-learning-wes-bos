@@ -23,7 +23,6 @@ class StorePicker extends React.Component {
   }
   render() {
     let title = 'Please Enter A Store';
-
     return (
       <div className='wrapper'>
         <XavTest/> 
@@ -39,7 +38,6 @@ class StorePicker extends React.Component {
       )
   }
 }
-// the compo
 StorePicker.contextTypes = {
   router: React.PropTypes.object
 }
